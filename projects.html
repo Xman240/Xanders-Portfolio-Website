@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Xander Puhlmann</title>
+  <meta name="description" content="Projects from Xander Puhlmann's game programming portfolio." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">Xander Puhlmann</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <p class="eyebrow">Projects</p>
+      <h1>Game programming work and prototypes.</h1>
+      <p>
+        These projects highlight my experience with VR, Unreal Engine, Unity, multiplayer concepts,
+        save systems, gameplay programming, and data management.
+      </p>
+    </section>
+
+    <section class="project-list">
+      <article class="project-detail" id="cams">
+        <div class="project-media">
+          <img src="images/portfolio-image-1.png" alt="CAMS VR Medical Simulation image one" />
+          <img src="images/portfolio-image-2.png" alt="CAMS VR Medical Simulation image two" />
+        </div>
+        <div class="project-copy">
+          <p class="tag">NAIT Capstone • Unreal Engine • VR</p>
+          <h2>CAMS VR Medical Simulation</h2>
+          <p>
+            My NAIT Capstone project involved helping build a proof of concept for a medical simulation in VR.
+            The project was for the Center of Advanced Medical Simulation at NAIT.
+          </p>
+          <p>
+            We were tasked with creating a realistic human model that could engage in immersive conversations
+            in VR using their Digital Twin, which is a copy of their facility. We used Unreal Engine and an AI
+            chatbot plugin at the client's request so conversations could be dynamic and allow a wide range of
+            questions and answers.
+          </p>
+          <ul class="project-points">
+            <li>VR medical simulation proof of concept</li>
+            <li>Unreal Engine development</li>
+            <li>AI chatbot conversation integration</li>
+            <li>Client-focused capstone project</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-detail reverse" id="proof-pending">
+        <div class="project-media">
+          <img src="images/portfolio-image-3.png" alt="Proof Pending image one" />
+          <img src="images/portfolio-image-4.png" alt="Proof Pending image two" />
+        </div>
+        <div class="project-copy">
+          <p class="tag">Unity • Multiplayer • Horror Demo</p>
+          <h2>Proof Pending – My First Game Demo</h2>
+          <p>
+            Proof Pending is the first game where I attempted to build a vertical slice. Most of the systems
+            are in place, although it is still missing final assets.
+          </p>
+          <p>
+            I forced myself to self-teach multiplayer code and learn how to set up a Unity project using
+            Netcode for GameObjects. The game concept is a multiplayer horror experience where players search
+            a forest for evidence of cryptids and try to survive the night as the cryptids fight back.
+          </p>
+          <p>
+            My goal is to make this a two-phase game. First, players search the forest with friends without
+            getting snatched by whatever is lurking in the woods. Second, players sell the evidence they found
+            and use it to set traps and defenses to survive what the night brings.
+          </p>
+          <ul class="project-points">
+            <li>First full Game Design Documented game</li>
+            <li>Unity multiplayer learning project</li>
+            <li>Forest cryptid horror concept</li>
+            <li>Two-phase gameplay loop</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-detail" id="adventure">
+        <div class="project-media single">
+          <img src="images/portfolio-image-5.png" alt="2D Adventure Game preview" />
+        </div>
+        <div class="project-copy">
+          <p class="tag">Unity • 2D • Tilemaps</p>
+          <h2>2D Adventure Game</h2>
+          <p>
+            I learned how to make 2D games using tilemaps and animated sprites. I also learned to build a save
+            system and use prefab-based map navigation, allowing certain doors to lead to new maps.
+          </p>
+          <p>
+            This project also features unique animations for each enemy and player, helping me practice both
+            game structure and presentation.
+          </p>
+          <ul class="project-points">
+            <li>2D tilemap workflow</li>
+            <li>Animated sprites</li>
+            <li>Save system</li>
+            <li>Prefab-based map navigation</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-detail reverse" id="racing">
+        <div class="project-media">
+          <img src="images/portfolio-image-6.png" alt="Racing game image one" />
+          <img src="images/portfolio-image-7.png" alt="Racing game image two" />
+        </div>
+        <div class="project-copy">
+          <p class="tag">Unity • Data Saving • Ghost Car</p>
+          <h2>Racing Game</h2>
+          <p>
+            In this project, I created a simple racing game where the player completes one lap around the track.
+            The game saves your best time and plays it back as a ghost car that you compete against.
+          </p>
+          <p>
+            It includes profile creation, where the player sets a name, chooses a car type, and selects a colour.
+            The profile is saved along with its best time. There is also a leaderboard holding the best times
+            across all profiles.
+          </p>
+          <p>
+            The main focus of this project was saving and managing data. I also enjoyed creating and saving
+            player profiles.
+          </p>
+          <ul class="project-points">
+            <li>Profile creation and persistence</li>
+            <li>Best-time saving</li>
+            <li>Ghost car playback</li>
+            <li>Leaderboard across profiles</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Xander Puhlmann. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
