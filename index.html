@@ -8,20 +8,22 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="noise"></div>
   <header class="site-header">
     <nav class="nav">
-      <a class="logo" href="index.html">Xander Puhlmann</a>
+      <a class="logo" href="index.html"><span class="logo-mark">X</span><span>Xander Makes Games</span></a>
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
       <div class="nav-links">
         <a href="index.html" class="active">Home</a>
         <a href="projects.html">Projects</a>
         <a href="about.html">About</a>
+        <a href="devlog.html">Dev Log</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero cinematic reveal">
       <div class="hero-copy">
         <p class="eyebrow">Game Programming Portfolio</p>
         <h1>Crafting game systems, worlds, and playable experiences.</h1>
@@ -42,6 +44,7 @@
         </div>
         <h2>Xander Puhlmann</h2>
         <p>Unity • Unreal Engine • VR • Gameplay Systems</p>
+        <div class="profile-links"><a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">Itch.io</a></div>
         <p class="photo-note">Add your own photo at <strong>images/profile.jpg</strong>.</p>
       </aside>
     </section>
@@ -79,7 +82,21 @@
       </div>
     </section>
 
-    <section class="section skill-preview">
+    <section class="section two-panel reveal">
+      <div class="panel dark-panel">
+        <p class="eyebrow">Technical Direction</p>
+        <h2>Systems-first game development.</h2>
+        <p>I am most interested in the systems that make games work: player interaction, save data, UI flow, multiplayer foundations, and the small details that make gameplay feel reliable.</p>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">Dev Log</p>
+        <h2>Showing how I solve problems.</h2>
+        <p>The dev log section is built so I can document what I build, what breaks, what I learn, and how I improve each project.</p>
+        <a class="button secondary" href="devlog.html">Read Dev Log</a>
+      </div>
+    </section>
+
+    <section class="section skill-preview reveal">
       <div>
         <p class="eyebrow">Core Skills</p>
         <h2>What I work with</h2>

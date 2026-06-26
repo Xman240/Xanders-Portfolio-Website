@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Log | Xander Makes Games</title>
+  <meta name="description" content="Development journal for Xander Puhlmann's game programming portfolio." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html"><span class="logo-mark">X</span><span>Xander Makes Games</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="devlog.html" class="active">Dev Log</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-header reveal">
+      <p class="eyebrow">Dev Log</p>
+      <h1>Progress, problems, and what I learn while building games.</h1>
+      <p>This page is designed to show how I think as a developer. Add short posts whenever I solve a problem, finish a feature, test a system, or learn something useful.</p>
+    </section>
+    <section class="log-list reveal">
+      <article class="log-card">
+        <p class="tag">Template Post</p>
+        <h2>How I built a ghost car system</h2>
+        <p>Use this post to explain the racing game feature: how I recorded the best lap, stored data, and played it back as a ghost car.</p>
+        <ul><li><strong>Problem:</strong> Compare the current lap against the player’s best lap.</li><li><strong>Solution:</strong> Save movement data and replay it as a non-colliding ghost car.</li><li><strong>What I learned:</strong> Data structure matters when saving and replaying gameplay information.</li></ul>
+      </article>
+      <article class="log-card">
+        <p class="tag">Template Post</p>
+        <h2>Learning multiplayer with Proof Pending</h2>
+        <p>Use this post to talk about self-teaching Unity multiplayer code, what was difficult, and what I would improve next.</p>
+        <ul><li><strong>Problem:</strong> Multiplayer systems require ownership and synchronization.</li><li><strong>Solution:</strong> Break features into smaller networked behaviours and test often.</li><li><strong>What I learned:</strong> Multiplayer architecture needs to be planned early.</li></ul>
+      </article>
+      <article class="log-card">
+        <p class="tag">Template Post</p>
+        <h2>Working with VR simulation constraints</h2>
+        <p>Use this post to document what I learned from the CAMS VR capstone project, especially client goals, realism, and AI conversation constraints.</p>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© <span id="year"></span> Xander Puhlmann. Built for GitHub Pages.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
