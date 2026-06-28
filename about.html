@@ -3,80 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | Xander Puhlmann</title>
-  <meta name="description" content="About Xander Puhlmann, skills, education, and game programming interests." />
+  <title>About | Xander Makes Games</title>
+  <meta name="description" content="About Xander Puhlmann and his game programming journey." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="noise"></div>
   <header class="site-header">
-    <nav class="nav">
-      <a class="logo" href="index.html"><span class="logo-mark">X</span><span>Xander Makes Games</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html" class="active">About</a>
-        <a href="devlog.html">Dev Log</a>
-      </div>
-    </nav>
-  </header>
-
+  <nav class="nav">
+    <a class="logo" href="index.html" aria-label="Xander Makes Games home">
+      <span class="logo-mark">X</span>
+      <span>Xander Makes Games</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html" class="active">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="devlog.html">Dev Log</a>
+    </div>
+  </nav>
+</header>
   <main>
-    <section class="page-header">
-      <p class="eyebrow">About Me</p>
-      <h1>I build games by combining systems, stories, and player experience.</h1>
+
+    <section class="page-hero reveal">
+      <p class="eyebrow">About</p>
+      <h1>Game developer in progress, focused on systems, stories, and iteration.</h1>
       <p>
-        I have always had a passion for crafting experiences and worldbuilding. I love to develop stories
-        into my games even when they are not front and centre. I am passionate about all things game
-        development and I am working hard to start my career.
+        I have always had a passion for crafting experiences and worldbuilding. I love developing stories into
+        my games, even when they are not front and centre. I am passionate about game development and I am
+        working hard to start my career.
       </p>
     </section>
 
-    <section class="section two-column">
-      <div class="about-card">
-        <p class="eyebrow">Education</p>
-        <h2>NAIT Digital Media and IT</h2>
-        <p>
-          Concentration: Video Game Programming. My education has helped me build a foundation in programming,
-          game engines, project work, and technical problem-solving.
-        </p>
-      </div>
+    <section class="about-layout reveal">
+      <aside class="about-sidebar">
+        <div class="profile-photo large-photo">
+          <img src="images/profile.jpg" alt="Photo of Xander Puhlmann" />
+        </div>
+        <h2>Xander Puhlmann</h2>
+        <p class="muted">Gameplay Programmer</p>
+        <div class="profile-links vertical">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Itch.io</a>
+          <a href="#">Email</a>
+        </div>
+      </aside>
 
-      <div class="about-card dark-card">
-        <p class="eyebrow">Career Goal</p>
-        <h2>Game Developer</h2>
-        <p>
-          I am focused on improving as a programmer, building stronger projects, and creating a portfolio that
-          shows both technical ability and creative direction.
-        </p>
+      <div class="about-main">
+        <article class="glass-card">
+          <p class="eyebrow">Education</p>
+          <h2>NAIT Digital Media and IT</h2>
+          <p>
+            Concentration: Video Game Programming. My education has helped me build a foundation in programming,
+            engines, project work, and technical problem solving.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <p class="eyebrow">Career Direction</p>
+          <h2>Gameplay Programming</h2>
+          <p>
+            I’m focused on improving as a programmer, building stronger portfolio projects, and creating games
+            that combine technical systems with strong worlds and player experience.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <p class="eyebrow">How I Work</p>
+          <h2>Build, test, learn, improve.</h2>
+          <p>
+            I like projects that force me to solve complete loops: player input, game rules, saved state,
+            UI feedback, scene transitions, debugging, and polish.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Skills</p>
-        <h2>Technical toolkit</h2>
-      </div>
-
-      <div class="skill-grid">
-        <div class="skill-card"><h3>C#</h3><p>Gameplay programming, Unity scripting, systems logic, and debugging.</p></div>
-        <div class="skill-card"><h3>Unity</h3><p>2D and 3D game projects, UI, scene flow, save systems, and prototypes.</p></div>
-        <div class="skill-card"><h3>Unreal Engine</h3><p>VR capstone experience and immersive simulation work.</p></div>
-        <div class="skill-card"><h3>VR</h3><p>Experience developing for immersive medical simulation environments.</p></div>
-        <div class="skill-card"><h3>Web Basics</h3><p>HTML, CSS, and portfolio website development.</p></div>
-        <div class="skill-card"><h3>Databases & Scripting</h3><p>SQL and Python fundamentals.</p></div>
-        <div class="skill-card"><h3>Game Architecture</h3><p>Scriptable Object and event-based systems.</p></div>
-        <div class="skill-card"><h3>QA & Bug Fixing</h3><p>Testing, issue tracking, debugging, and polishing systems.</p></div>
-        <div class="skill-card"><h3>Multiplayer Basics</h3><p>Learning networking, Steam integration, and multiplayer project setup.</p></div>
-      </div>
-    </section>
   </main>
-
   <footer class="site-footer">
-    <p>© <span id="year"></span> Xander Puhlmann. Built for GitHub Pages.</p>
+    <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games · Built with GitHub Pages</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>

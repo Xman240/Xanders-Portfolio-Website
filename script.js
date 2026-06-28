@@ -1,1 +1,20 @@
-const yearElement=document.getElementById("year");if(yearElement){yearElement.textContent=new Date().getFullYear();}const navToggle=document.querySelector(".nav-toggle");const navLinks=document.querySelector(".nav-links");if(navToggle&&navLinks){navToggle.addEventListener("click",()=>{navLinks.classList.toggle("open");});}const revealElements=document.querySelectorAll(".reveal");const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");observer.unobserve(entry.target);}});},{threshold:.12});revealElements.forEach(element=>observer.observe(element));
+const yearElement = document.getElementById("year");
+if (yearElement) yearElement.textContent = new Date().getFullYear();
+
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+}
+
+const revealElements = document.querySelectorAll(".reveal");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+revealElements.forEach((element) => observer.observe(element));

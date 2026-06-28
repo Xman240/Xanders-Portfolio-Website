@@ -3,158 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Xander Puhlmann</title>
-  <meta name="description" content="Projects from Xander Puhlmann's game programming portfolio." />
+  <title>Projects | Xander Makes Games</title>
+  <meta name="description" content="Game programming projects by Xander Puhlmann." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="noise"></div>
   <header class="site-header">
-    <nav class="nav">
-      <a class="logo" href="index.html"><span class="logo-mark">X</span><span>Xander Makes Games</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="about.html">About</a>
-        <a href="devlog.html">Dev Log</a>
-      </div>
-    </nav>
-  </header>
-
+  <nav class="nav">
+    <a class="logo" href="index.html" aria-label="Xander Makes Games home">
+      <span class="logo-mark">X</span>
+      <span>Xander Makes Games</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="devlog.html">Dev Log</a>
+    </div>
+  </nav>
+</header>
   <main>
-    <section class="page-header">
+
+    <section class="page-hero reveal">
       <p class="eyebrow">Projects</p>
-      <h1>Game programming work and prototypes.</h1>
+      <h1>Case studies, prototypes, and playable systems.</h1>
       <p>
-        These projects highlight my experience with VR, Unreal Engine, Unity, multiplayer concepts,
-        save systems, gameplay programming, and data management.
+        Each project page is set up like a mini case study: overview, technical focus, challenges,
+        what I learned, and what I would improve next.
       </p>
     </section>
 
-    <section class="project-list">
-      <article class="project-detail" id="cams">
-        <div class="project-media">
-          <img src="images/portfolio-image-1.png" alt="CAMS VR Medical Simulation image one" />
-          <img src="images/portfolio-image-2.png" alt="CAMS VR Medical Simulation image two" />
-        </div>
-        <div class="project-copy">
-          <p class="tag">NAIT Capstone • Unreal Engine • VR</p>
+    <section class="project-index reveal">
+      <a class="project-tile" href="projects/cams-vr.html">
+        <img src="images/portfolio-image-1.png" alt="CAMS VR Medical Simulation" />
+        <div>
+          <p class="tag">Unreal Engine · VR · AI</p>
           <h2>CAMS VR Medical Simulation</h2>
-          <p>
-            My NAIT Capstone project involved helping build a proof of concept for a medical simulation in VR.
-            The project was for the Center of Advanced Medical Simulation at NAIT.
-          </p>
-          <p>
-            We were tasked with creating a realistic human model that could engage in immersive conversations
-            in VR using their Digital Twin, which is a copy of their facility. We used Unreal Engine and an AI
-            chatbot plugin at the client's request so conversations could be dynamic and allow a wide range of
-            questions and answers.
-          </p>
-          <div class="breakdown-grid"><div><h3>Challenge</h3><p>Build a focused feature or proof-of-concept that works clearly.</p></div><div><h3>Solution</h3><p>Break the work into small systems, test often, and improve through iteration.</p></div><div><h3>What I Learned</h3><p>Each project strengthened my programming, design, and debugging process.</p></div></div>
-          <ul class="project-points">
-            <li>VR medical simulation proof of concept</li>
-            <li>Unreal Engine development</li>
-            <li>AI chatbot conversation integration</li>
-            <li>Client-focused capstone project</li>
-          </ul>
+          <p>NAIT capstone proof of concept for an immersive medical simulation.</p>
         </div>
-      </article>
+      </a>
 
-      <article class="project-detail reverse" id="proof-pending">
-        <div class="project-media">
-          <img src="images/portfolio-image-3.png" alt="Proof Pending image one" />
-          <img src="images/portfolio-image-4.png" alt="Proof Pending image two" />
+      <a class="project-tile" href="projects/proof-pending.html">
+        <img src="images/portfolio-image-3.png" alt="Proof Pending" />
+        <div>
+          <p class="tag">Unity · Multiplayer · Horror</p>
+          <h2>Proof Pending</h2>
+          <p>A multiplayer cryptid horror vertical slice and self-taught networking project.</p>
         </div>
-        <div class="project-copy">
-          <p class="tag">Unity • Multiplayer • Horror Demo</p>
-          <h2>Proof Pending – My First Game Demo</h2>
-          <p>
-            Proof Pending is the first game where I attempted to build a vertical slice. Most of the systems
-            are in place, although it is still missing final assets.
-          </p>
-          <p>
-            I forced myself to self-teach multiplayer code and learn how to set up a Unity project using
-            Netcode for GameObjects. The game concept is a multiplayer horror experience where players search
-            a forest for evidence of cryptids and try to survive the night as the cryptids fight back.
-          </p>
-          <p>
-            My goal is to make this a two-phase game. First, players search the forest with friends without
-            getting snatched by whatever is lurking in the woods. Second, players sell the evidence they found
-            and use it to set traps and defenses to survive what the night brings.
-          </p>
-          <div class="breakdown-grid"><div><h3>Challenge</h3><p>Build a focused feature or proof-of-concept that works clearly.</p></div><div><h3>Solution</h3><p>Break the work into small systems, test often, and improve through iteration.</p></div><div><h3>What I Learned</h3><p>Each project strengthened my programming, design, and debugging process.</p></div></div>
-          <ul class="project-points">
-            <li>First full Game Design Documented game</li>
-            <li>Unity multiplayer learning project</li>
-            <li>Forest cryptid horror concept</li>
-            <li>Two-phase gameplay loop</li>
-          </ul>
-        </div>
-      </article>
+      </a>
 
-      <article class="project-detail" id="adventure">
-        <div class="project-media single">
-          <img src="images/portfolio-image-5.png" alt="2D Adventure Game preview" />
-        </div>
-        <div class="project-copy">
-          <p class="tag">Unity • 2D • Tilemaps</p>
+      <a class="project-tile" href="projects/adventure-game.html">
+        <img src="images/portfolio-image-5.png" alt="2D Adventure Game" />
+        <div>
+          <p class="tag">Unity · 2D · Tilemaps</p>
           <h2>2D Adventure Game</h2>
-          <p>
-            I learned how to make 2D games using tilemaps and animated sprites. I also learned to build a save
-            system and use prefab-based map navigation, allowing certain doors to lead to new maps.
-          </p>
-          <p>
-            This project also features unique animations for each enemy and player, helping me practice both
-            game structure and presentation.
-          </p>
-          <div class="breakdown-grid"><div><h3>Challenge</h3><p>Build a focused feature or proof-of-concept that works clearly.</p></div><div><h3>Solution</h3><p>Break the work into small systems, test often, and improve through iteration.</p></div><div><h3>What I Learned</h3><p>Each project strengthened my programming, design, and debugging process.</p></div></div>
-          <ul class="project-points">
-            <li>2D tilemap workflow</li>
-            <li>Animated sprites</li>
-            <li>Save system</li>
-            <li>Prefab-based map navigation</li>
-          </ul>
+          <p>A 2D project focused on tilemaps, animated sprites, prefab map navigation, and save data.</p>
         </div>
-      </article>
+      </a>
 
-      <article class="project-detail reverse" id="racing">
-        <div class="project-media">
-          <img src="images/portfolio-image-6.png" alt="Racing game image one" />
-          <img src="images/portfolio-image-7.png" alt="Racing game image two" />
-        </div>
-        <div class="project-copy">
-          <p class="tag">Unity • Data Saving • Ghost Car</p>
+      <a class="project-tile" href="projects/racing-game.html">
+        <img src="images/portfolio-image-6.png" alt="Racing Game" />
+        <div>
+          <p class="tag">Unity · Save Systems · Leaderboards</p>
           <h2>Racing Game</h2>
-          <p>
-            In this project, I created a simple racing game where the player completes one lap around the track.
-            The game saves your best time and plays it back as a ghost car that you compete against.
-          </p>
-          <p>
-            It includes profile creation, where the player sets a name, chooses a car type, and selects a colour.
-            The profile is saved along with its best time. There is also a leaderboard holding the best times
-            across all profiles.
-          </p>
-          <p>
-            The main focus of this project was saving and managing data. I also enjoyed creating and saving
-            player profiles.
-          </p>
-          <div class="breakdown-grid"><div><h3>Challenge</h3><p>Build a focused feature or proof-of-concept that works clearly.</p></div><div><h3>Solution</h3><p>Break the work into small systems, test often, and improve through iteration.</p></div><div><h3>What I Learned</h3><p>Each project strengthened my programming, design, and debugging process.</p></div></div>
-          <ul class="project-points">
-            <li>Profile creation and persistence</li>
-            <li>Best-time saving</li>
-            <li>Ghost car playback</li>
-            <li>Leaderboard across profiles</li>
-          </ul>
+          <p>A racing prototype with saved profiles, best times, ghost car playback, and leaderboards.</p>
         </div>
-      </article>
+      </a>
+
+      <a class="project-tile" href="projects/rat-heist.html">
+        <img src="images/project-placeholder.svg" alt="Rat Heist placeholder" />
+        <div>
+          <p class="tag">Unity · Co-op · In Development</p>
+          <h2>Rat Heist / Rat Survival Concept</h2>
+          <p>A future page for your current rat co-op game, sewer hub, multiplayer lobby, and level entry systems.</p>
+        </div>
+      </a>
     </section>
+
   </main>
-
   <footer class="site-footer">
-    <p>© <span id="year"></span> Xander Puhlmann. Built for GitHub Pages.</p>
+    <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games · Built with GitHub Pages</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
