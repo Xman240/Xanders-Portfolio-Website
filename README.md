@@ -1,29 +1,20 @@
-# Xander Portfolio — Figma-Inspired Version
+# Xander Makes Games — Professional Clean Portfolio
 
-This version replaces the dark cinematic design with the lighter black-and-white style from the Figma reference.
+Simplified polished portfolio.
 
-## Pages
+Pages:
+- Home
+- Projects
+- About
+- Individual project case study pages
 
-- `index.html` — home page
-- `projects.html` — work/project hub
-- `projects/*.html` — individual project case-study pages
-- `about.html` — about page
-- `skills.html` — skills page
-- `devlog.html` — dev log page
-- `contact.html` — contact links
-- `styles.css` — visual theme
-- `script.js` — mobile menu
-- `CNAME` — custom domain file for GitHub Pages
+Removed:
+- Dev Log page
+- Contact page
 
-## Keep this file
+Contact links are in the footer.
 
-The `CNAME` file should stay in your repo root. It contains:
-
-```txt
+Keep `CNAME` in the root:
 xandermakesgames.com
-```
 
-## Replace placeholders
-
-- Replace `images/hero-placeholder.svg` with your own portrait or staged image if desired.
-- Replace `href="#"` links with real GitHub, LinkedIn, Itch.io, email, demo, or video links.
+Replace `href="#"` with real GitHub, LinkedIn, Itch.io, demo, and repo links.
