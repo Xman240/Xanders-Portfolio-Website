@@ -3,56 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2D Adventure Game | Xander Makes Games</title>
-  <meta name="description" content="A 2D adventure project focused on tilemaps, animated sprites, save data, and map transitions." />
+  <title>2D Adventure Game | Xander Puhlmann</title>
+  <meta name="description" content="A 2D adventure project using tilemaps, animated sprites, map navigation, and save systems." />
   <link rel="icon" href="../images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="site-header">
-    <nav class="nav">
-      <a class="logo" href="../index.html"><span class="logo-mark">X</span><span>Xander Makes Games</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <div class="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="../projects.html" class="active">Projects</a>
-        <a href="../about.html">About</a>
-        <a href="../skills.html">Skills</a>
-        <a href="../devlog.html">Dev Log</a>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="project-hero reveal">
-      <p class="eyebrow">Unity · 2D · Tilemaps · Save System</p>
-      <h1>2D Adventure Game</h1>
-      <p>A 2D adventure project focused on tilemaps, animated sprites, save data, and map transitions.</p>
-      <div class="button-row">
-        <a class="button ghost" href="../projects.html">← Back to Projects</a>
-        <a class="button primary" href="#">Demo / Repo Link</a>
-      </div>
-    </section>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="../index.html"><span>GAME</span><span>DEVELOPER</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../projects.html" class="active">Work</a>
+      <a href="../skills.html">Skills</a>
+      <a href="../devlog.html">Dev Log</a>
+      <a href="../about.html">About</a>
+    </div>
+    <a class="nav-icon" href="../contact.html" aria-label="Contact">●</a>
+  </nav>
+</header>
+<main>
+  <section class="project-hero">
+    <p class="kicker">Unity · 2D · Tilemaps</p>
+    <h1>2D Adventure Game</h1>
+    <p>A 2D adventure project using tilemaps, animated sprites, map navigation, and save systems.</p>
+    <a class="btn outline" href="../projects.html">← Back to Work</a>
+  </section>
 
-    <section class="case-study reveal">
-      <div class="case-gallery"><img src="../images/portfolio-image-5.png" alt="2D Adventure Game screenshot 1" /></div>
-      <div class="case-content">
-        <article class="glass-card">
-          <p class="eyebrow">Overview</p>
-          <p>I learned how to make 2D games using tilemaps and animated sprites. I also built a save system and used prefab-based map navigation so certain doors could lead to new maps.</p>
-        </article>
-        <div class="case-grid">
-          <article class="glass-card"><h2>Technical Focus</h2><p>Unity tilemaps, animated sprites, prefab navigation, map transitions, save system logic, and enemy/player animation.</p></article>
-          <article class="glass-card"><h2>Challenge</h2><p>The challenge was connecting several small systems together into something that behaved like a complete game structure.</p></article>
-          <article class="glass-card"><h2>What I Learned</h2><p>I improved my understanding of 2D workflows, saved state, scene/map transitions, and organized prefab-based systems.</p></article>
-          <article class="glass-card"><h2>Next Step</h2><p>Add gameplay footage, clean up the UI, and write a stronger breakdown of the save system.</p></article>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games</p>
-  </footer>
-  <script src="../script.js"></script>
+  <section class="case-study">
+    <div class="case-gallery"><img src="../images/portfolio-image-5.png" alt="2D Adventure Game screenshot 1" /></div>
+    <div class="case-info">
+      <article>
+        <h2>Overview</h2>
+        <p>This project helped me learn 2D game development with tilemaps and animated sprites. It uses prefab-based map navigation so doors can lead to new maps.</p>
+      </article>
+      <article>
+        <h2>My Role</h2>
+        <p>I built the map navigation, save system, and animation setup for players and enemies.</p>
+      </article>
+      <article>
+        <h2>Challenge</h2>
+        <p>The challenge was connecting several small systems into a structure that felt like a complete 2D game.</p>
+      </article>
+      <article>
+        <h2>What I Learned</h2>
+        <p>I learned more about 2D workflows, scene/map transitions, prefab organization, and saved state.</p>
+      </article>
+      <article>
+        <h2>Next Step</h2>
+        <p>Add more screenshots and explain the save system in more detail.</p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="footer"><p>© <span id="year"></span> Xander Puhlmann</p></footer>
+<script src="../script.js"></script>
 </body>
 </html>

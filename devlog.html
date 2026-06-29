@@ -3,74 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dev Log | Xander Makes Games</title>
-  <meta name="description" content="Development log for Xander Puhlmann's game programming portfolio." />
+  <title>Dev Log | Xander Puhlmann</title>
+  <meta name="description" content="Development log by Xander Puhlmann." />
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="site-header">
+<header class="site-header">
   <nav class="nav">
-    <a class="logo" href="index.html" aria-label="Xander Makes Games home">
-      <span class="logo-mark">X</span>
-      <span>Xander Makes Games</span>
+    <a class="brand" href="index.html">
+      <span>GAME</span>
+      <span>DEVELOPER</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
+      <a href="projects.html">Work</a>
       <a href="skills.html">Skills</a>
       <a href="devlog.html" class="active">Dev Log</a>
+      <a href="about.html">About</a>
     </div>
+    <a class="nav-icon" href="contact.html" aria-label="Contact">●</a>
   </nav>
 </header>
-  <main>
+<main>
 
-    <section class="page-hero reveal">
-      <p class="eyebrow">Dev Log</p>
-      <h1>Progress notes, problems, and lessons learned.</h1>
-      <p>
-        This page is designed to show how I think. Add short posts whenever I solve a problem,
-        finish a feature, test a system, or learn something useful.
-      </p>
-    </section>
+<section class="page-hero">
+  <p class="kicker">Dev Log</p>
+  <h1>Progress notes, problems, and lessons learned.</h1>
+  <p>This page gives me a place to show how I think, solve problems, and improve as a developer.</p>
+</section>
 
-    <section class="log-list reveal">
-      <article class="log-card">
-        <p class="tag">Template Post</p>
-        <h2>How I built a ghost car system</h2>
-        <p>Use this post to explain the racing game feature: how movement data was recorded, stored, and replayed.</p>
-        <ul>
-          <li><strong>Problem:</strong> I needed a way to compare the current lap against the player's best lap.</li>
-          <li><strong>Solution:</strong> Save movement data and replay it as a non-colliding ghost car.</li>
-          <li><strong>What I learned:</strong> Data structure matters when saving and replaying gameplay information.</li>
-        </ul>
-      </article>
+<section class="devlog-list">
+  <article>
+    <p class="date">Template Post</p>
+    <h2>How I built a ghost car system</h2>
+    <p>Explain how the racing game records movement data, saves a best lap, and replays it as a ghost car.</p>
+  </article>
 
-      <article class="log-card">
-        <p class="tag">Template Post</p>
-        <h2>Learning multiplayer with Proof Pending</h2>
-        <p>Use this post to talk about self-teaching Unity multiplayer code and what was difficult.</p>
-        <ul>
-          <li><strong>Problem:</strong> Multiplayer systems require careful ownership and synchronization.</li>
-          <li><strong>Solution:</strong> Break features into smaller networked behaviours and test often.</li>
-          <li><strong>What I learned:</strong> Multiplayer architecture needs to be planned early.</li>
-        </ul>
-      </article>
+  <article>
+    <p class="date">Template Post</p>
+    <h2>Learning multiplayer with Proof Pending</h2>
+    <p>Talk about self-teaching Unity multiplayer code, ownership, synchronization, and what you would improve next.</p>
+  </article>
 
-      <article class="log-card">
-        <p class="tag">Template Post</p>
-        <h2>Working with VR simulation constraints</h2>
-        <p>Use this post to document what I learned from the CAMS VR capstone, including client goals, realism, and AI conversation constraints.</p>
-      </article>
-    </section>
+  <article>
+    <p class="date">Template Post</p>
+    <h2>Working with VR simulation constraints</h2>
+    <p>Document what you learned from the CAMS VR capstone project, including client goals, realism, and AI conversation constraints.</p>
+  </article>
+</section>
 
-  </main>
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games · Built with GitHub Pages</p>
-  </footer>
-  <script src="script.js"></script>
+</main>
+<footer class="footer">
+  <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

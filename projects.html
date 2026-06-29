@@ -3,91 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Xander Makes Games</title>
-  <meta name="description" content="Game programming projects by Xander Puhlmann." />
+  <title>Work | Xander Puhlmann</title>
+  <meta name="description" content="Game development projects by Xander Puhlmann." />
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="site-header">
+<header class="site-header">
   <nav class="nav">
-    <a class="logo" href="index.html" aria-label="Xander Makes Games home">
-      <span class="logo-mark">X</span>
-      <span>Xander Makes Games</span>
+    <a class="brand" href="index.html">
+      <span>GAME</span>
+      <span>DEVELOPER</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Work</a>
       <a href="skills.html">Skills</a>
       <a href="devlog.html">Dev Log</a>
+      <a href="about.html">About</a>
     </div>
+    <a class="nav-icon" href="contact.html" aria-label="Contact">●</a>
   </nav>
 </header>
-  <main>
+<main>
 
-    <section class="page-hero reveal">
-      <p class="eyebrow">Projects</p>
-      <h1>Case studies, prototypes, and playable systems.</h1>
-      <p>
-        Each project page is set up like a mini case study: overview, technical focus, challenges,
-        what I learned, and what I would improve next.
-      </p>
-    </section>
+<section class="page-hero">
+  <p class="kicker">Selected Work</p>
+  <h1>Projects and Game Systems</h1>
+  <p>Case-study style pages for my game programming projects, prototypes, and technical experiments.</p>
+</section>
 
-    <section class="project-index reveal">
-      <a class="project-tile" href="projects/cams-vr.html">
-        <img src="images/portfolio-image-1.png" alt="CAMS VR Medical Simulation" />
-        <div>
-          <p class="tag">Unreal Engine · VR · AI</p>
-          <h2>CAMS VR Medical Simulation</h2>
-          <p>NAIT capstone proof of concept for an immersive medical simulation.</p>
-        </div>
-      </a>
+<section class="project-grid">
+  <a class="project-card" href="projects/cams-vr.html">
+    <img src="images/portfolio-image-1.png" alt="CAMS VR Medical Simulation" />
+    <div>
+      <p>Unreal Engine · VR · AI Conversation</p>
+      <h2>CAMS VR Medical Simulation</h2>
+      <span>View Project</span>
+    </div>
+  </a>
 
-      <a class="project-tile" href="projects/proof-pending.html">
-        <img src="images/portfolio-image-3.png" alt="Proof Pending" />
-        <div>
-          <p class="tag">Unity · Multiplayer · Horror</p>
-          <h2>Proof Pending</h2>
-          <p>A multiplayer cryptid horror vertical slice and self-taught networking project.</p>
-        </div>
-      </a>
+  <a class="project-card" href="projects/proof-pending.html">
+    <img src="images/portfolio-image-3.png" alt="Proof Pending" />
+    <div>
+      <p>Unity · Multiplayer · Horror</p>
+      <h2>Proof Pending</h2>
+      <span>View Project</span>
+    </div>
+  </a>
 
-      <a class="project-tile" href="projects/adventure-game.html">
-        <img src="images/portfolio-image-5.png" alt="2D Adventure Game" />
-        <div>
-          <p class="tag">Unity · 2D · Tilemaps</p>
-          <h2>2D Adventure Game</h2>
-          <p>A 2D project focused on tilemaps, animated sprites, prefab map navigation, and save data.</p>
-        </div>
-      </a>
+  <a class="project-card" href="projects/adventure-game.html">
+    <img src="images/portfolio-image-5.png" alt="2D Adventure Game" />
+    <div>
+      <p>Unity · 2D · Tilemaps</p>
+      <h2>2D Adventure Game</h2>
+      <span>View Project</span>
+    </div>
+  </a>
 
-      <a class="project-tile" href="projects/racing-game.html">
-        <img src="images/portfolio-image-6.png" alt="Racing Game" />
-        <div>
-          <p class="tag">Unity · Save Systems · Leaderboards</p>
-          <h2>Racing Game</h2>
-          <p>A racing prototype with saved profiles, best times, ghost car playback, and leaderboards.</p>
-        </div>
-      </a>
+  <a class="project-card" href="projects/racing-game.html">
+    <img src="images/portfolio-image-6.png" alt="Racing Game" />
+    <div>
+      <p>Unity · Data Saving · Ghost Car</p>
+      <h2>Racing Game</h2>
+      <span>View Project</span>
+    </div>
+  </a>
 
-      <a class="project-tile" href="projects/rat-heist.html">
-        <img src="images/project-placeholder.svg" alt="Rat Heist placeholder" />
-        <div>
-          <p class="tag">Unity · Co-op · In Development</p>
-          <h2>Rat Heist / Rat Survival Concept</h2>
-          <p>A future page for your current rat co-op game, sewer hub, multiplayer lobby, and level entry systems.</p>
-        </div>
-      </a>
-    </section>
+  <a class="project-card" href="projects/rat-heist.html">
+    <img src="images/project-placeholder.svg" alt="Rat Heist placeholder" />
+    <div>
+      <p>Unity · Co-op · In Development</p>
+      <h2>Rat Heist / Rat Survival Concept</h2>
+      <span>View Project</span>
+    </div>
+  </a>
+</section>
 
-  </main>
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games · Built with GitHub Pages</p>
-  </footer>
-  <script src="script.js"></script>
+</main>
+<footer class="footer">
+  <p>© <span id="year"></span> Xander Puhlmann · Xander Makes Games</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
